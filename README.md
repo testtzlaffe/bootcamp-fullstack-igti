@@ -10,8 +10,8 @@ pelo back-end (Node.js e Express), front-end (vanilla JavaScript e
 React), persistência de dados NoSQL (MongoDB), controle de
 versionamento de código com Git e implantação em nuvem.
 
-Em vez de subir separadamente ao Github todos os projetos concluídos
-neste bootcamp, preparei esta página e as demais como um storytelling
-sobre a evolução no aprendizado.
+Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um único repositório do curso todos os arquivos.
 
-Estão previstos 5 módulos.
+Para uma melhor visualização da evolução no bootcamp, criei uma estrutura de diretórios, com alguns arquivos index.html:
+
+<button>OK</button>
