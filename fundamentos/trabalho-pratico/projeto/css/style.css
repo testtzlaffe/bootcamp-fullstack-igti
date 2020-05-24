@@ -1,0 +1,112 @@
+body {
+  background-color: #ddd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  padding: 10px;
+}
+
+#number-r {
+  color: red;
+}
+
+#number-g {
+  color: green;
+}
+
+#number-b {
+  color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.col1,
+.col2,
+.col3 {
+  padding: 5px;
+}
+
+.col1 {
+  min-width: 30px;
+}
+
+.col2 {
+  transform: rotate(-90deg);
+}
+
+.col3 > input {
+  max-width: 50px;
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 90px;
+}
+
+input[type="range"] {
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+input[type="range"],
+.number {
+  width: 120px;
+  padding: 0;
+}
+
+.ranges {
+  position: fixed;
+  bottom: 170px;
+}
+
+.footer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 270px;
+
+  text-align: center;
+}
+
+.bottom-footer {
+  background-color: #eee;
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.icon {
+  height: 40px;
+  margin: 10px;
+}

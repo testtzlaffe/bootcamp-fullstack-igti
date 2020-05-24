@@ -1,0 +1,55 @@
+body {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  max-width: 800px;
+}
+
+.icon {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#github-img {
+  height: 60px;
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+}
+
+.cardfooter {
+  color: #aaa;
+}
+
+.card-title {
+  color: rgb(110, 90, 190);
+}
+
+.card-link,
+.number,
+.name {
+  color: rgb(110, 90, 190);
+}
+
+.header {
+  background-color: rgb(110, 90, 190);
+}
+
+.btn-prim {
+  background-color: rgb(110, 90, 190);
+  color: white;
+}

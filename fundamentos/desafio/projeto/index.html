@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="header text-white shadow p-2">
+      <div class="text-center border-bottom p-2 mb-2 text-dark">
+        <a href="../../../">
+          <img class="icon" src="../../../img/home.png"
+        /></a>
+        <a href="https://github.com/testtzlaffe" target="_blank">
+          <img id="github-img" class="icon" src="../../../img/github.png"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/christian-testtzlaffe-alpoim-812899140/"
+          target="_blank"
+          ><img class="icon" src="../../../img/linkedin.png"
+        /></a>
+      </div>
+      <h1 class="text-center">Bootcamp Full Stack - IGTI</h1>
+      <h2 class="text-center">User Search</h2>
+    </div>
+    <div class="container">
+      <div class="form">
+        <input
+          class="form-control"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite o nome"
+        />
+        <!-- <button class="btn btn-primary" disabled>BUSCAR</button> -->
+      </div>
+      <div class="results">
+        <button class="btn btn-sm" id="showStatistics">
+          Show statistics
+        </button>
+        <div class="p-2" id="statistics">
+          <div class="row justify-content-center">
+            <div class="card col-sm-2 text-center">
+              <div class="h3 number" id="totalFilteredUsers">0</div>
+              <div>Total de usuários filtrados</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="h3 number" id="totalFilteredMale">0</div>
+              <div>Sexo masculino</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="h3 number" id="totalFilteredFemale">0</div>
+              <div>Sexo feminino</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="h3 number" id="ageSum">0</div>
+              <div>Soma das idades</div>
+            </div>
+            <div class="card col-sm-2 text-center">
+              <div class="h3 number" id="ageAverage">0</div>
+              <div>Média das idades</div>
+            </div>
+          </div>
+        </div>
+        <div id="list">
+          <div id="listInfo"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

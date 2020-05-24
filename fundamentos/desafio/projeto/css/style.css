@@ -1,0 +1,70 @@
+body {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.form {
+  display: flex;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.results {
+  width: 100%;
+}
+
+.card {
+  margin: 5px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.idade {
+  color: #ccc;
+}
+
+#statistics {
+  display: none;
+}
+
+.icon {
+  width: 50px;
+}
