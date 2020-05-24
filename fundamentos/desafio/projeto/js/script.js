@@ -156,8 +156,8 @@ const toggleStatistics = () => {
   showStatistics = !showStatistics;
   const display = showStatistics ? "block" : "none";
   const buttonTextContent = showStatistics
-    ? "Hide statistics"
-    : "Show statistics";
+    ? "Esconder estatísticas"
+    : "Mostrar estatísticas";
   statisticsElement.style.display = display;
   showStatisticsElement.textContent = buttonTextContent;
 };
