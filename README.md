@@ -14,4 +14,4 @@ Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um ú
 
 Para uma melhor visualização da evolução no bootcamp, criei uma estrutura de diretórios, com alguns arquivos index.html:
 
-<a href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">Site</button>
+<a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">Site</button>
