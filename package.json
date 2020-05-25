@@ -1,0 +1,25 @@
+{
+  "name": "bootcamp-fullstack-igti",
+  "version": "1.0.0",
+  "description": "Projetos desenvolvidos no bootcamp fullstack da IGTI",
+  "main": "./fundamentos/trabalho-pratico/projeto/js/script.js",
+  "scripts": {
+    "dev-fundamentos-trabalho-pratico": "babel ./fundamentos/trabalho-pratico/projeto/js/script.js -o ./fundamentos/trabalho-pratico/projeto/js/script-babel.js",
+    "dev-fundamentos-desafio": "babel ./fundamentos/desafio/projeto/js/script.js -o ./fundamentos/desafio/projeto/js/script-babel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testtzlaffe/bootcamp-fullstack-igti.git"
+  },
+  "author": "Christian Alpoim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testtzlaffe/bootcamp-fullstack-igti/issues"
+  },
+  "homepage": "https://github.com/testtzlaffe/bootcamp-fullstack-igti#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
