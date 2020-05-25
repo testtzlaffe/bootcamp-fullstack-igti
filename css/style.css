@@ -17,14 +17,14 @@ body {
 }
 
 .icon {
-  height: 50px;
+  height: 40px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.github-img {
+/* .github-img {
   height: 60px;
-}
+} */
 
 .card {
   width: 18rem;
