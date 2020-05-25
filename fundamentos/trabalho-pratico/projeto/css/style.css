@@ -102,6 +102,6 @@ input[type="range"],
   background-color: rgb(110, 90, 190);
   position: fixed;
   bottom: 0;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
 }
