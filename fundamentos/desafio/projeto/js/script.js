@@ -126,13 +126,10 @@ const calc = () => {
   ageAverage = average();
 };
 
-const totalByGender = (gender) => {
-  return filteredUsers.filter((user) => user.gender === gender).length;
-};
+const totalByGender = (gender) =>
+  filteredUsers.filter((user) => user.gender === gender).length;
 
-const sumAge = () => {
-  return filteredUsers.reduce((acc, curr) => acc + curr.age, 0);
-};
+const sumAge = () => filteredUsers.reduce((acc, curr) => acc + curr.age, 0);
 
 const average = () => {
   if (totalFilteredUsers === 0) {
@@ -142,7 +139,7 @@ const average = () => {
 };
 
 const formatNumber = (number) => {
-  return numberFormat.format(number);
+  return numberFormat.format(parseFloat(number).toFixed(2));
 };
 
 const toggleStatistics = () => {
