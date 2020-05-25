@@ -43,7 +43,6 @@ const selectElements = () => {
   showStatisticsElement = document.querySelector("#showStatistics");
   showStatisticsElement.addEventListener("click", toggleStatistics);
   statisticsElement = document.querySelector("#statistics");
-  console.log(showStatisticsElement);
 };
 
 const fetchUsers = async () => {
@@ -51,7 +50,6 @@ const fetchUsers = async () => {
     "https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo"
   );
   const json = await res.json();
-  console.log(json);
   allUsers = json.results.map((user) => {
     const { gender, name, dob, picture } = user;
     const completeName = `${name.first} ${name.last}`;
@@ -91,10 +89,6 @@ const sortUsers = () => {
 
 const list = () => {
   if (!filteredUsers) {
-    console.log("sem usuarios");
-    console.log(filteredUsers);
-    console.log(totalFilteredUsers);
-    console.log(totalFilteredUsersElement);
     return;
   }
   let userListHTML = "<ul>";
@@ -152,7 +146,6 @@ const formatNumber = (number) => {
 };
 
 const toggleStatistics = () => {
-  console.log(showStatistics);
   showStatistics = !showStatistics;
   const display = showStatistics ? "block" : "none";
   const buttonTextContent = showStatistics
