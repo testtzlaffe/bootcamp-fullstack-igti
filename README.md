@@ -12,4 +12,4 @@ pelo back-end (Node.js e Express), front-end (vanilla JavaScript e
 React), persistência de dados NoSQL (MongoDB), controle de
 versionamento de código com Git e implantação em nuvem.
 
-Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um único repositório do curso todos os arquivos. Para uma melhor visualização da evolução no bootcamp, organizei neste <a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">site</a>.
+Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um único repositório do curso todos os arquivos. Para uma melhor visualização da evolução no bootcamp, organizei a evolução neste <a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">site</a>.
