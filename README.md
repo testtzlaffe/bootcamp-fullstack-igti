@@ -1,4 +1,6 @@
-# bootcamp-fullstack-igti
+# Bootcamp Full Stack
+
+<a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">Resultados</button>
 
 Em maio de 2020 aceitei o desafio e iniciei a participação no Bootcamp
 Full Stack da IGTI. O programa tem como objetivo oferecer uma formação
@@ -10,8 +12,4 @@ pelo back-end (Node.js e Express), front-end (vanilla JavaScript e
 React), persistência de dados NoSQL (MongoDB), controle de
 versionamento de código com Git e implantação em nuvem.
 
-Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um único repositório do curso todos os arquivos.
-
-Para uma melhor visualização da evolução no bootcamp, criei uma estrutura de diretórios, com alguns arquivos index.html:
-
-<a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">Site</button>
+Em vez de separar cada projeto desenvolvido neste bootcamp, centralizei em um único repositório do curso todos os arquivos. Para uma melhor visualização da evolução no bootcamp, criei uma estrutura em diretórios e um <a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">site</button>
