@@ -2,7 +2,7 @@
 
 <a target="_blank" href="https://testtzlaffe.github.io/bootcamp-fullstack-igti/">Resultados</a>
 
-Em maio de 2020 aceitei o desafio e iniciei a participação no Bootcamp
+Em maio de 2020 iniciei a participação no Bootcamp
 Full Stack da IGTI. O programa tem como objetivo oferecer uma formação
 prática e intensiva em algumas tecnologias para desenvolvedor full
 stack. São 148h de aulas, em pouco mais de 2 meses.
