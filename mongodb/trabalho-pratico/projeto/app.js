@@ -8,7 +8,7 @@ app.use(router);
 
 (async () => {
   await mongoose.connect(
-    "mongodb+srv://dbAdmin:zFAqUQ5lIH1oHb1p@cluster0.bazmo.mongodb.net/bootcamp?retryWrites=true&w=majority",
+    "mongodb+srv://<login>:<password>@cluster0.bazmo.mongodb.net/<database>?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
